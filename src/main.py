@@ -1,10 +1,18 @@
-from basics import simpleExample
+import basics
+import num_math
 
 def initialize():
     pass
 
 def main():
-    simpleExample()
+    print("**************BASIC**********************")
+    basics.singleNeuron()
+    basics.layeredNeuron()
+    
+    print()
+    print("**************NUMPY*****************")
+    num_math.layeredNeuron()
+    
 
 if __name__ == '__main__':
     initialize()

@@ -1,3 +1,3 @@
-from basics.InputWeightBias import simpleExample
+from basics.InputWeightBias import singleNeuron, layeredNeuron
 
-__all__ = [simpleExample]
+__all__ = [singleNeuron, layeredNeuron]
