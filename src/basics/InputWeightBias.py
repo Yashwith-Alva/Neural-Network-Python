@@ -33,5 +33,3 @@ def layeredNeuron():
         
     print(output)
 
-# input[0] * weight[0] + input[0]*weight[1] + input[2]*weight[2] + bias[0]
-#

@@ -1,3 +1,3 @@
-from .nuerons import layeredNeuron
+from .nuerons import layeredNeuron, batchedNeurons, multiLayerNeurons
 
-__all__ = [layeredNeuron]
+__all__ = [layeredNeuron, batchedNeurons, multiLayerNeurons]
